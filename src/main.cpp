@@ -14,7 +14,7 @@ ESP8266WebServer server(80);
 //ServElb56 on
 void GetServerOn()
 {
-    server.send(200, "text/json", "{\"name\": \"ServElb56 is starting\"}");
+    server.send(200, "text/plain", "ServElb56 is starting");
       digitalWrite(ledPin, LOW);
     Serial.println("ServElb56 is starting!!!");
 }

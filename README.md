@@ -1,2 +1,4 @@
 # Switch
-One pin switch via rest api on an ESP
+One pin(16) switch via rest api call.
+Runs on an ESP Controller.
+

@@ -7,7 +7,7 @@
 #define ledPin 16
  
 const char* ssid = "WLAN-56-2.4G";
-const char* password = "ElBeRt5654";
+const char* password = "";
  
 ESP8266WebServer server(80);
  
